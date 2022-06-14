@@ -1,1 +1,117 @@
-/* styles for CV */
+:root {
+    --hf-text-color: #00008b;
+    --hf-background-color: #d3d3d3;
+    --hf-font: bold 1em Arial;
+    --main-color: #696969;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.cv_mainwrapper {
+    display: inline-block;
+    box-shadow: 10px 10px 20px;
+    max-width: 1000px;
+    min-width: 700px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+.cv_header {
+    padding: 10px;
+    margin-bottom: 5px;
+    color: var(--hf-text-color);
+    font: var(--hf-font); 
+    text-align: right;
+    background-color: var(--hf-background-color);
+}
+
+.cv_main {
+    margin-top: 20px;
+    color: var(--main-color);
+    text-align: left;
+    background-image: url("./images/main_bgr_img.jpg");
+    background-size: cover;
+}
+
+.cv_footer {
+    padding: 20px;
+    margin-top: 5px;
+    color: var(--hf-text-color);
+    font: var(--hf-font); 
+    text-align: right;
+    background-color: var(--hf-background-color);
+}
+
+.cv_nav .cv_list .cv_list_item {
+    display: inline;
+    margin-right: 10px;
+}
+
+.liststyle_none.cv_list {
+    list-style-type: none;
+}
+
+.cv_hf_link {
+    color: var(--hf-text-color);
+    text-decoration-line: none;
+}
+
+.cv_section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.flexblock {
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.leftblock {
+    width: 30%;
+    padding-left: 20px;
+}
+
+.rightblock {
+    width: 70%;
+    padding-right: 35px;
+}
+
+.cv_inlineblock {
+    display: inline-block;
+    margin-inline: 10px;
+}
+
+.cv_photo {
+    border-radius: 50%;
+}
+
+.cv_title {
+    font-size: 4em;
+    border-bottom: 4px solid var(--main-color);
+}
+
+.cv_section_title {
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.cv_codeblock {
+    font-size: larger;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    background-color: #ffe4c4;
+}
+
+.cv_img_gh {
+    width: 36px;
+    height: 36px;
+}
+
+.cv_img_rss {
+    width: 96px;
+}
